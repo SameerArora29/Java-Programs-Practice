@@ -1,10 +1,10 @@
 abstract class Person {
      int age;
-    String name;
+     String name;
      int phoneno;
-   
-   void studies();
-   void teaches();
+   static String schoolname = "DAV";
+   abstract void studies();
+   abstract void teaches();
 
 
 }
