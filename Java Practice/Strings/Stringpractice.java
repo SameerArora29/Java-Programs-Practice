@@ -23,5 +23,7 @@ class Stringpractice {
 		System.out.println(str2);
 		StringBuilder str4 = new StringBuilder("hii");
 		System.out.println(str4);
+		String name = "abcd";
+		name = "1234";
     }
 }

@@ -1,17 +1,24 @@
 public class Account {
-    String name;
-    protected String email;
-    private String password;
-
-    public String getpassword() {
+   private String name;
+  //   protected String email;
+  //   private String password;
+  //   public String getpassword() {
      
-         setpassword("tgb");
-        return this.password;
-    }
+  //        setpassword("random");
+  //       return this.password;
+  //   }
   
-  private void setpassword(String pwd) {
-    password = pwd;
-  } 
+  // private void setpassword(String pwd) {
+  //   password = pwd;
+  // } 
+
+  public String getname(){
+    setname("abc");
+    return name;
+  }
+private void setname(String name) {
+  name = name;
+} 
 
 
 }
